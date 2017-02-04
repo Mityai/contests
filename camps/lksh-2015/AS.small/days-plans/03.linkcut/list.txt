@@ -1,0 +1,2 @@
+2011-04\reverse   - reverse(l, r)
+2012-01\linkcut   - Граф всегда является лесом. Нужно обрабатывать запросы Link, Cut, Distance(a, b)

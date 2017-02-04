@@ -1,0 +1,85 @@
+\documentclass[12pt,a4paper,oneside]{article}
+
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[russian]{olymp}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{epigraph}
+\usepackage[russian]{hyperref}
+\usepackage{color}
+\usepackage{lastpage}
+\usepackage{import}
+\usepackage{verbatim}
+
+\renewcommand{\t}{\texttt}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\ge}{\geqslant}
+
+\binoppenalty=10000
+\relpenalty=10000
+\exhyphenpenalty=10000
+
+\newcommand{\ProblemLabel}{undefined}
+\newcommand{\ProblemTL}{undefined}
+\newcommand{\ProblemML}{undefined}
+\newcommand{\ProblemName}{undefined}
+
+\def\O{\mathcal{O}}
+
+\def\probl#1#2#3#4#5{
+  \renewcommand{\ProblemName}{#2}
+  \renewcommand{\ProblemLabel}{#3}
+  \renewcommand{\ProblemTL}{#4}
+  \renewcommand{\ProblemML}{#5}
+  %\input #2.tex
+  \import{../problems/#1/#2/statement/}{#2}
+  %\input ../problems/#1/#2/statement/#2.tex
+}
+\def\problfix#1#2#3#4#5{
+  \renewcommand{\ProblemName}{#2}
+  \renewcommand{\ProblemLabel}{#3}
+  \renewcommand{\ProblemTL}{#4}
+  \renewcommand{\ProblemML}{#5}
+  \input ../problems/#1/#2/statement/#2.tex
+}
+          
+\newcommand{\Section}[1]{
+  \hbox{\hspace{1em}}
+  \vspace*{-2.5em}
+  \section*{#1}
+  \addcontentsline{toc}{section}{#1}
+  \vspace*{-0.5em}
+}
+
+\contest
+{ЛКШ.2015.Июль.AS.День 3\\ Linking-Cutting -- просто сказка, Linking-Cutting не щиплет глазки}%
+{Судиславль, Берендеевы Поляны}%
+{8 июля 2015, среда}%
+
+%\sectionfont{\fontsize{8}{8}\selectfont}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{brown}{rgb}{0.5,0.5,0}
+
+\def\compact{
+  \setlength{\parskip}{-5pt}
+  \setlength{\itemsep}{5pt}
+}
+
+\begin{document}
+
+\vspace*{0em}
+\tableofcontents
+
+\vspace*{1em}
+\noindent \underline{\hbox to 1\textwidth{{ } \hfil{ } \hfil{ } }}
+
+\pagebreak
+
+\probl{2011-04}{reverse}{A}{0.5 sec}{256 mb} % - reverse(l, r)
+\probl{2012-01}{linkcut}{B}{0.5 sec}{256 mb} % - Граф всегда является лесом. Нужно обрабатывать запросы Link, Cut, Distance(a, b)
+
+\end{document}

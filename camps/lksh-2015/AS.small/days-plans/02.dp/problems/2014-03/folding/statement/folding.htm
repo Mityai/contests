@@ -1,0 +1,75 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style type="text/css" xml:space="preserve">
+h1 { text-align: center; font-size: large; text-decoration: underline }  
+h2 { text-align: center; font-size: large; margin-bottom: 0 } 
+.sample {border:solid windowtext .5pt}
+</style>
+<title>Folding</title>
+<meta name="Author" value="Roman Elizarov"></meta>
+<meta name="Contact" value="Roman Elizarov &lt;elizarov@acm.org&gt;"></meta>
+</head>
+<body>
+
+<h1>2002-2003 ACM Northeastern European Regional Programming Contest</h1>
+<h2>Problem F<br></br>&quot;Folding&quot;</h2>
+
+<table>
+<tr><td colspan="1" rowspan="1"><strong>Input file:</strong></td><td colspan="1" rowspan="1"><tt>folding.in</tt></td></tr>
+<tr><td colspan="1" rowspan="1"><strong>Output file:</strong></td><td colspan="1" rowspan="1"><tt>folding.out</tt></td></tr>
+</table>
+
+<p>Bill is trying to compactly represent sequences of capital alphabetic
+characters from 'A' to 'Z' by folding repeating subsequences inside them. 
+For example, one way to represent a sequence AAAAAAAAAABABABCCD is 
+10(A)2(BA)B2(C)D. He formally defines folded sequences of characters 
+along with the unfolding transformation for them in the following way:</p>
+
+<ul>
+<li>A sequence that contains a single character from 'A' to 'Z' is 
+considered to be a folded sequence. Unfolding of this sequence 
+produces the same sequence of a single character itself.</li>
+<li>If S and Q are folded sequences, then SQ is also a folded sequence.
+If S unfolds to S' and Q unfolds to Q', then SQ unfolds to S'Q'.</li>
+<li>If S is a folded sequence, then X(S) is also a folded sequence,
+where X is a decimal representation of an integer number greater than 1.
+If S unfolds to S', then X(S) unfolds to S' repeated X times.</li>
+</ul>
+
+<p>According to this definition it is easy to unfold any given folded
+sequence. However, Bill is much more interested in the reverse 
+transformation. He wants to fold the given sequence in such a way that 
+the resulting folded sequence contains the least possible number of 
+characters.</p>
+
+<h3>Input</h3>
+
+<p>The input file contains a single line of characters from 'A' to 'Z'
+with at least 1 and at most 100 characters.</p>
+
+<h3>Output</h3>
+
+<p>Write to the output file a single line that contains the shortest 
+possible folded sequence that unfolds to the sequence that is given
+in the input file. If there are many such sequences then write 
+any one of them.</p>
+
+<h3>Sample input and output</h3>
+
+<table cellpadding="4" width="100%">
+<tr>
+<td colspan="1" rowspan="1" valign="top" width="50%"><b>folding.in</b></td>
+<td colspan="1" rowspan="1" valign="top" width="50%"><b>folding.out</b></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1" valign="top" width="50%"><pre class="sample" xml:space="preserve"><tt>AAAAAAAAAABABABCCD</tt></pre></td>
+<td colspan="1" rowspan="1" valign="top" width="50%"><pre class="sample" xml:space="preserve"><tt>9(A)3(AB)CCD</tt></pre></td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1" valign="top" width="50%"><pre class="sample" xml:space="preserve"><tt>NEERCYESYESYESNEERCYESYESYES</tt></pre></td>
+<td colspan="1" rowspan="1" valign="top" width="50%"><pre class="sample" xml:space="preserve"><tt>2(NEERC3(YES))</tt></pre></td>
+</tr>
+</table>
+
+</body>
+</html>

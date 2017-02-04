@@ -1,0 +1,117 @@
+\documentclass[12pt,a4paper,oneside]{article}
+
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[russian]{olymp}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{epigraph}
+\usepackage[russian]{hyperref}
+\usepackage{color}
+\usepackage{lastpage}
+\usepackage{import}
+\usepackage{verbatim}
+
+\parindent=0cm
+
+\renewcommand{\t}{\texttt}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\leq}{\leqslant}
+\renewcommand{\ge}{\geqslant}
+\renewcommand{\geq}{\geqslant}
+\DeclareMathOperator{\perm}{perm}
+
+\contest
+{ЛКШ.2015.Июль.AS.День 5: теорсеминар по строкам}%
+{Судиславль, Берендеевы Поляны}%
+{10 июля 2015, пятница}%
+
+\binoppenalty=10000
+\relpenalty=10000
+\begin{document}
+
+\newenvironment{MyList}{
+  \begin{enumerate}
+  \setlength{\parskip}{-5pt}
+  \setlength{\itemsep}{5pt}
+}{
+  \setlength{\parskip}{0pt}
+  \end{enumerate}
+}
+
+\newenvironment{MyItemize}{
+  \begin{itemize}
+  \setlength{\parskip}{-5pt}
+  \setlength{\itemsep}{5pt}
+}{
+  \setlength{\parskip}{0pt}
+  \end{itemize}
+}
+
+\vspace*{0em}
+\centerline{\Large\bf Задачи теоретического семинара}
+
+\bigskip
+
+{\bf Задачи на алгоритм Ахо-Корасик}
+
+\begin{MyList}
+  \item Дан словарь и изначально пустой текст. Online запрос: дописать к тексту одну букву, перечислить все вновь появившиеся вхождения словарных слов в текст.
+  \item Дано подвешенное дерево, на каждом ребре написана буква. Дана строка $s$. Найти такую вершину дерева $v$, что, если подниматься от неё вверх по дереву,
+    первые $|s|$ символов образуют строку $s$. Найти количество таких $v$.
+  \item Обобщение предыдущей задачи на словарь строк. Найти количество пар $(v, s_i)$, что от $v$ вверх можно отложить $s_i$.
+  \item Дан массив. Найти такой отрезок массива, что XOR элементов на отрезке максимален.
+\end{MyList}
+
+{\bf Задачи на суфф\{дерево, автомат, массив\}}. В каждой задаче есть три пункта:
+(a) решить деревом, (b) решить автоматом, (c) решить массивом.
+
+\begin{MyList}
+  \setcounter{enumi}{4}
+  \item Дан текст. Online поступают строки $s_i$, для каждой говорить, является ли она подстрокой текста.
+  \item Даны $k$ строк, найти самую длинную общую подстроку.
+  \item Даны $k$ строк, найти самый длинный общий подпалиндром
+  \item Даны 2 строки, найти лексикографически $k$-я общую подстроку из множества различных.
+  \item Дана строка, найти $k$-й символ конкатенации всех различных подстрок.
+  \item Даны строки $s$ и $t$, найти такую подстроку строки $s \colon [l..r]$, что она встречается в $t$ и $l + (|s| - r) + \min(l, |s| - r) \rightarrow \min$.
+\end{MyList}
+
+\medskip
+
+{\large Фамилия участника:}
+
+\medskip
+
+\begin{tabular}{|l|
+p{0.5cm}|p{0.5cm}|p{0.5cm}|
+p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|
+p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|
+p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|
+p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|
+p{0.5cm}|p{0.5cm}|
+}
+	\hline
+		Задача &1&2&3&4&5a&5b&5c&6a&6b&6c\\
+	\hline
+		Отметка&  &  &  & &  &  &  &  &  & \\
+	\hline
+\end{tabular}
+
+\medskip
+\begin{tabular}{|l|
+p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|
+p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|
+p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|
+p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|
+p{0.5cm}|p{0.5cm}|p{0.5cm}|p{0.5cm}|
+}
+	\hline
+		Задача &7a&7b&7c&8a&8b&8c&9a&9b&9c&10a&10b&10c\\
+	\hline
+		Отметка& & &  &  &  &  &  &  &  &  &  & \\
+	\hline
+\end{tabular}
+
+\end{document}

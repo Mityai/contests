@@ -1,0 +1,97 @@
+\documentclass[12pt,a4paper,oneside]{article}
+
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[russian]{olymp}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{epigraph}
+\usepackage[russian]{hyperref}
+\usepackage{color}
+\usepackage{lastpage}
+\usepackage{import}
+\usepackage{verbatim}
+
+\renewcommand{\t}{\texttt}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\ge}{\geqslant}
+
+\binoppenalty=10000
+\relpenalty=10000
+\exhyphenpenalty=10000
+
+\newcommand{\ProblemLabel}{undefined}
+\newcommand{\ProblemTL}{undefined}
+\newcommand{\ProblemML}{undefined}
+\newcommand{\ProblemName}{undefined}
+
+\def\O{\mathcal{O}}
+
+\def\probl#1#2#3#4#5{
+  \renewcommand{\ProblemName}{#2}
+  \renewcommand{\ProblemLabel}{#3}
+  \renewcommand{\ProblemTL}{#4}
+  \renewcommand{\ProblemML}{#5}
+  %\input #2.tex
+  \import{../problems/#1/#2/statement/}{#2}
+  %\input ../problems/#1/#2/statement/#2.tex
+}
+\def\problfix#1#2#3#4#5{
+  \renewcommand{\ProblemName}{#2}
+  \renewcommand{\ProblemLabel}{#3}
+  \renewcommand{\ProblemTL}{#4}
+  \renewcommand{\ProblemML}{#5}
+  \input ../problems/#1/#2/statement/#2.tex
+}
+          
+\newcommand{\Section}[1]{
+  \hbox{\hspace{1em}}
+  \vspace*{-2.5em}
+  \section*{#1}
+  \addcontentsline{toc}{section}{#1}
+  \vspace*{-0.5em}
+}
+
+\contest
+{ЛКШ.2015.Июль.AS.День 2: динамичный тур}%
+{Судиславль, Берендеевы Поляны}%
+{7 июля 2015, вторник}%
+
+%\sectionfont{\fontsize{8}{8}\selectfont}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{brown}{rgb}{0.5,0.5,0}
+
+\def\compact{
+  \setlength{\parskip}{-5pt}
+  \setlength{\itemsep}{5pt}
+}
+
+\begin{document}
+
+\vspace{2em}
+\tableofcontents
+
+\vspace{1em}
+\noindent \underline{\hbox to 1\textwidth{{ } \hfil{ } \hfil{ } }}
+
+\pagebreak
+
+\probl{2012-01}{nails}{A}{0.5 sec}{256 mb}      % - min по суммарной длине набор отрезков, покрывающий все точки на прямой
+\probl{2011-10}{longpath}{B}{0.5 sec}{256 mb}   % - самый длинный путь в невзвешенном графе без циклов (N <= 10 000, M <= 100 000)
+\probl{2011-12}{joseph}{C}{0.5 sec}{256 mb}     
+\probl{2014-10}{sequence}{D}{0.5 sec}{256 mb}   % - наибольшая возрастающая подпоследовательность, отношение возрастания -- делимость
+\probl{2014-10}{palindr}{E}{0.5 sec}{256 mb}    % - выбрать самую длинную подпоследовательность-палиндром за O(n^2).
+\probl{2014-03}{folding}{F}{0.5 sec}{256 mb}    % - timus.1238 (запаковать строку), n <= 100
+\probl{2011-10}{team}{G}{0.5 sec}{256 mb}       % - Найти компоненты связности, а по ним рюкзак
+\probl{2012-01}{nearest}{H}{2 sec}{16 mb}     % - +a or -a. Нужно получить максимальную близкую к X сумму. N <= 10 000. Sum|a| <= 10 000.
+\probl{2014-10}{ship}{I}{3 sec}{256 mb}       % - отправиль минимальным числом кораблей массив a[1:n], за один ход можно отправлять префикс + суффикс. (f,w)[L,R]. n <= 10^4.
+\probl{2014-10}{bottletaps}{J}{1 sec}{256 mb} % - Набрать множество крышек, как сумму подмножеств.
+\probl{2011-12}{bridge1}{K}{0.5 sec}{256 mb}     
+\probl{2015-06}{bridge2}{L}{1 sec}{256 mb}     % - O(N^2) усложнение предыдущей задачи
+\probl{2014-11}{casino}{M}{1 sec}{256 mb}     % - РОИ'2005, за ход можно удалить подстроку из данных
+\probl{2014-10}{irreduce}{N}{0.5 sec}{256 mb}   % - количество неприводимых унитарных многочленов длины n над F_p
+
+\end{document}

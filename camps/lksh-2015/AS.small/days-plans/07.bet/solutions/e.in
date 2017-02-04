@@ -1,0 +1,11 @@
+10
+Insert(100)
+Insert(99)
+Insert(1)
+Insert(2)
+GetMin
+GetMax
+Insert(1)
+GetMin
+GetMin
+GetMax

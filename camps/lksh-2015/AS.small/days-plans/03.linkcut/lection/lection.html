@@ -1,0 +1,41 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Заголовок.</title>
+</head>
+<h1 id="link-cut-tree">Link-Cut tree</h1>
+<h2 id="основа">Основа</h2>
+<ul>
+<li>Покрытие дерева путями</li>
+<li>Хранение пути в виде декартова дерева</li>
+<li>Сделать вершину корнем</li>
+<li>Ответ на запрос &quot;функция на пути от v до корня&quot; за O(klogn), где k число прыжков</li>
+</ul>
+<h2 id="link-cut">Link-Cut</h2>
+<ul>
+<li>Expose</li>
+<li>MakeRoot</li>
+<li>Link</li>
+<li>Cut</li>
+<li>Get(a, b)</li>
+</ul>
+<h2 id="подробная-реализация">Подробная реализация</h2>
+<ul>
+<li>Что нам нужно от декаротва дерева?</li>
+<li>Как мы делаем Expose?</li>
+<li>Как мы делаем MakeRoot</li>
+</ul>
+<h2 id="доказательство-корректности">Доказательство корректности</h2>
+<ul>
+<li>Потенциал = количество тяжёлых рёбер, покрытых путями</li>
+<li>Изменение потенциала при Expose</li>
+<li>Изменение потенциала при Reverse</li>
+<li>Изменение потенциала при Link и Cut</li>
+</ul>
+<h2 id="splay-tree">Splay-Tree</h2>
+<ul>
+<li>Splay</li>
+<li>Теорема про время работы без доказательства</li>
+<li>Соединяем с Link-Cut tree</li>
+</ul>

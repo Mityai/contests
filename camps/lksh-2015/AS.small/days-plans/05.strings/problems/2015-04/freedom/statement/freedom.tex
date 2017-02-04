@@ -1,0 +1,40 @@
+% Автор: Сергей Копелиович
+% Источник: acm.timus.ru:1517
+
+\begin{problem}{Свобода выбора}
+{freedom.in}{freedom.out}
+{1 секунда}{256 мегабайт}{}
+
+Даны две строки, состоящих из заглавных латинских букв.
+Нужно найти их наибольшую общую подстроку.
+Полное условие можно посмотреть на \href{http://acm.timus.ru/problem.aspx?space=1\&num=1517\&locale=ru}{тимусе}.
+% acm.timus.ru/problem.aspx?space=1\&num=1517\&locale=ru
+
+\InputFile
+
+На первой строке число $n$ ($1 \le n \le 10^5$).
+
+На второй и третьей строках находятся по $n$ заглавных английских букв.
+
+\OutputFile
+
+Максимальную по длине общую подстроку.
+Если оптимальных ответов несколько, выведите любой.
+
+\Examples
+
+\begin{example}
+\exmp{
+28
+VOTEFORTHEGREATALBANIAFORYOU
+CHOOSETHEGREATALBANIANFUTURE
+}{
+THEGREATALBANIA
+}%
+\end{example}
+
+\end{problem}
+
+\Note
+
+19-й -- антихеш тест

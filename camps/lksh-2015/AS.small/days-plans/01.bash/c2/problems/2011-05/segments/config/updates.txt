@@ -1,0 +1,6 @@
+2014.10.10 [Burunduk1]
+  -- segments_sk.cpp
+
+2014.02.27 [Burunduk1]
+  -- check.cpp, validate.cpp
+  -- решение _slow переименовано в _slow_wa

@@ -1,0 +1,44 @@
+% Problem author: Sergey Kopeliovich
+% Text author: Sergey Kopeliovich
+% Tests author: Sergey Kopeliovich
+
+\begin{problem}{ВнутренНЯя точка}{inside.in}{inside.out}{2 секунды}{64 мегабайта}
+
+Дан строго выпуклый $N$-угольник и $K$ точек.
+Для каждой точки нужно определеить, где она находится "--- внутри, на границе, или снаружи.
+
+\InputFile
+
+$N$ ($3 \le N \le 10^5$). Далее $N$ точек "--- вершины многоугольника.
+
+$K$ ($0 \le K \le 10^5$). Далее $K$ точек "--- запросы.
+
+Все координаты "--- целые числа по модулю не превосходящие $10^7$.
+
+\OutputFile
+
+Для каждого запроса одна строка "--- \texttt{INSIDE}, \texttt{BORDER} или \texttt{OUTSIDE}.
+
+\Examples
+
+\begin{example}
+\exmp{
+4
+0 0
+2 0
+2 2
+0 2
+4
+1 1
+0 0
+0 1
+0 3
+}{
+INSIDE
+BORDER
+BORDER
+OUTSIDE
+}%
+\end{example}
+
+\end{problem}

@@ -1,0 +1,78 @@
+% Перевод: Сергей Копелиович
+% Источник: GCJ 2015, Round 2, Problem A
+
+\begin{problem}{Пэкмэн на гриде}
+{stdin}{stdout}
+{1 секунда}{256 мегабайт}{}
+
+Дан грид размера $R$ строк на $C$ столбцов. В каждой клетке грида
+или пусто, или указателей на одну из соседних клеток (направление движения).
+Если пэкмэна десантировать в одну из клеток грида, то, если клетка пустая, он будет стоять в ней вечно,
+иначе пойдёт в указанную в клетке сторону и будет идти пока, или не встретит другой указатель, или
+не выйдёт за пределы грида. Когда пэкмэн встречает новый указатель, он меняет направление и продолжает движение.
+Возможно, таким образом, пэкмэн будет бесконечно блуждать по гриду.
+Вы хотите сделать грид безопасным для десантирования -- куда бы не высадился пэкмэн, его
+действия не приведут к выходу за пределы поля.
+
+Для этого вам разрешается поменять несколько указателей. Убирать указатели или добавлять новые нельзя.
+Сколько минимум указателей нужно поменять так, чтобы грид стал безопасным для десантирования пэкмэна?
+
+\InputFile
+
+Первая строка содержит количество тестов $T$, далее следует описание $T$ тестов.
+Первая сторока теста содержит $R$ и $C$. 
+Следующие $R$ строк задают грид.
+Символы грида:
+\begin{itemize}
+  \item ``\t{.}'' нет указателя
+  \item ``\t{\^{}}'' указатель вверх
+  \item ``\t{>}'' указатель  вправо
+  \item ``\t{v}'' указатель  вниз
+  \item ``\t{<}'' указатель влево
+\end{itemize}
+
+\OutputFile
+
+Для каждого теста выведите на отдельной строке минимальное 
+число указателей, которые нужно поменять.
+Если сделать грид безопасным невозможно, выведите ``IMPOSSIBLE''.
+
+\Scoring
+
+$1 \le T \le 100$
+\begin{itemize}
+  \item {\bf Простая подзадача:} $1 \le R, C \le 4$
+  \item {\bf Сложная подзадача:} $1 \le R, C \le 100$
+\end{itemize}
+
+\Examples
+
+\begin{example}
+\exmp{
+4
+2 1
+\^{}
+\^{}
+2 2
+>v
+\^{}<
+3 3
+...
+.\^{}.
+...
+1 1
+.
+}{%
+1
+0
+IMPOSSIBLE
+0
+}%
+\end{example}
+
+\end{problem}
+
+%In Case #1, Pegman is guaranteed to walk off the top edge of the grid, no matter where he is placed. You can prevent that by changing the topmost arrow to point down, which will cause him to walk back and forth between those two arrows forever.
+%In Case #2, no matter where Pegman is placed, he will walk around and around the board clockwise in a circle. No arrows need to be changed.
+%In Case #3, the mischievous user might place Pegman on the up arrow in the middle of the grid, in which case he will start walking and then walk off the top edge of the grid. Changing the direction of this arrow won't help: it would just make him walk off a different edge.
+%In Case #4, the only possible starting cell is blank, so Pegman will stand still forever and is in no danger.

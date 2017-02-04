@@ -1,0 +1,13 @@
+sed -e "s/<dir>/2011-11/g;s/<id>/1/g;s/<id1>/A/g;s/<name1>/count/g;" < day07.tex_ > day07a.tex
+sed -e "s/<dir>/2012-08/g;s/<id>/2/g;s/<id1>/B/g;s/<name1>/paint/g;" < day07.tex_ > day07b.tex
+sed -e "s/<dir>/2015-03/g;s/<id>/3/g;s/<id1>/C/g;s/<name1>/mainpoint/g;" < day07.tex_ > day07c.tex
+sed -e "s/<dir>/2010-12/g;s/<id>/4/g;s/<id1>/D/g;s/<name1>/polygon/g;" < day07.tex_ > day07d.tex
+sed -e "s/<dir>/2012-07/g;s/<id>/5/g;s/<id1>/E/g;s/<name1>/minmax/g;" < day07.tex_ > day07e.tex
+sed -e "s/<dir>/2011-10b/g;s/<id>/6/g;s/<id1>/F/g;s/<name1>/balls/g;" < day07.tex_ > day07f.tex
+sed -e "s/<dir>/2011-12/g;s/<id>/7/g;s/<id1>/G/g;s/<name1>/psyche/g;" < day07.tex_ > day07g.tex
+sed -e "s/<dir>/2012-06/g;s/<id>/8/g;s/<id1>/H/g;s/<name1>/numcycle/g;" < day07.tex_ > day07h.tex
+sed -e "s/<dir>/2010-12/g;s/<id>/9/g;s/<id1>/I/g;s/<name1>/inside/g;" < day07.tex_ > day07i.tex
+sed -e "s/<dir>/2011-10b/g;s/<id>/10/g;s/<id1>/J/g;s/<name1>/queries/g;" < day07.tex_ > day07j.tex
+sed -e "s/<dir>/2011-10/g;s/<id>/11/g;s/<id1>/K/g;s/<name1>/knapsack/g;" < day07.tex_ > day07k.tex
+sed -e "s/<dir>/2015-04/g;s/<id>/12/g;s/<id1>/L/g;s/<name1>/assassination/g;" < day07.tex_ > day07l.tex
+sed -e "s/<dir>/2011-10b/g;s/<id>/13/g;s/<id1>/M/g;s/<name1>/parens3/g;" < day07.tex_ > day07m.tex

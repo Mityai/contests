@@ -1,0 +1,21 @@
+2015.04.27 [Burunduk1]
+  -- fix test 10
+  -- fix EOL in tests
+  -- validate.cpp
+  -- check.cpp : my_testlib.h
+  -- heaps2_sk.cpp
+  -- heaps2_sk_fastio.cpp
+  -- readme.txt
+
+2014.07.12 [Burunduk1]
+  -- решения -> solutions
+
+2013.04.03 [Burunduk1]
+  -- 10.hand --> 10.hand.7z
+  -- опечатка в комментариях чекера
+
+2013.03.25 [Burunduk1]
+  -- добавлено решение heaps2_mb_break.cpp
+
+2011.03.15 [Mikhail Belous]
+  -- первая рабочая версия задачи

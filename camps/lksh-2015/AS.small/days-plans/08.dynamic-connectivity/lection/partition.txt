@@ -1,0 +1,19 @@
+Кто за какую часть отвечает?
+
+--
+
+1. Treap
+2. Forest: Euler Tour Trees без getSpanningEdges(), getAllEdges()
+3. Forest: getSpanningEdges(), getAllEdges()
+4. Собственно Dynamic Connectivity
+5. Assert-ы на все инварианты
+6. Заглушка для Forest, чтобы тестить Dynamic Connectivity без структур данных
+
+--
+
+1. Плюшкин Максим, Жалгасов Асхат	
+2. Ермилов Антон, Горбунов Роман	
+3. Безбородов Ян, Никонов Роман	
+4. Наумов Станислав, Ютман Михаил
+5. Никифоровская Анна
+6. Михайлов Никита, Тух Игорь

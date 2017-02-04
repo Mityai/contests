@@ -1,0 +1,63 @@
+Problem
+
+Elliot's parents speak French and English to him at home. He has heard a lot of words, but it isn't always clear to him which word comes from which language! Elliot knows one sentence that he's sure is English and one sentence that he's sure is French, and some other sentences that could be either English or French. If a word appears in an English sentence, it must be a word in English. If a word appears in a French sentence, it must be a word in French.
+
+Considering all the sentences that Elliot has heard, what is the minimum possible number of words that he's heard that must be words in both English and French?
+
+Input
+
+The first line of the input gives the number of test cases, T. T test cases follow. Each starts with a single line containing an integer N. N lines follow, each of which contains a series of space-separated "words". Each "word" is made up only of lowercase characters a-z. The first of those N lines is a "sentence" in English, and the second is a "sentence" in French. The rest could be "sentences" in either English or French. (Note that the "words" and "sentences" are not guaranteed to be valid in any real language.)
+
+Output
+
+For each test case, output one line containing "Case #x: y", where x is the test case number (starting from 1) and y is the minimum number of words that Elliot has heard that must be words in both English and French.
+
+Limits
+
+1 ≤ T ≤ 25.
+Each word will contain no more than 10 characters.
+The two "known" sentences will contain no more than 1000 words each.
+The "unknown" sentences will contain no more than 10 words each.
+Small dataset
+
+2 ≤ N ≤ 20.
+Large dataset
+
+2 ≤ N ≤ 200.
+Sample
+
+
+Input 
+ 	
+Output 
+ 
+4
+2
+he loves to eat baguettes
+il aime manger des baguettes
+4
+a b c d e
+f g h i j
+a b c i j
+f g h d e
+4
+he drove into a cul de sac
+elle a conduit sa voiture
+il a conduit dans un cul de sac
+il mange pendant que il conduit sa voiture
+6
+adieu joie de vivre je ne regrette rien
+adieu joie de vivre je ne regrette rien
+a b c d e
+f g h i j
+a b c i j
+f g h d e
+
+Case #1: 1
+Case #2: 4
+Case #3: 3
+Case #4: 8
+
+In Case #1, Elliot knows for sure that the first sentence is in English and the second is in French, so there is no ambiguity; the only word that must be in both English and French is "baguettes".
+
+In Case #2, the last two sentences could either be: English English, English French, French English, or French French. The second of those possibilities is the one that minimizes the number of words common to both languages; that set turns out to be d, e, i, and j.

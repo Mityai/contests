@@ -1,0 +1,10 @@
+sed -e "s/<id>/1/g;s/<id1>/A/g;s/<name1>/cards/g;s/<id2>/C/g;s/<name2>/house/g;" < day04.tex_ > day04a.tex
+sed -e "s/<id>/2/g;s/<id1>/E/g;s/<name1>/revbin/g;s/<id2>/F/g;s/<name2>/pathk/g;" < day04.tex_ > day04b.tex
+sed -e "s/<id>/3/g;s/<id1>/G/g;s/<name1>/magic/g;s/<id2>/H/g;s/<name2>/evaluate/g;" < day04.tex_ > day04c.tex
+sed -e "s/<id>/4/g;s/<id1>/I/g;s/<name1>/meteorology1d/g;s/<id2>/J/g;s/<name2>/one/g;" < day04.tex_ > day04d.tex
+sed -e "s/<id>/5/g;s/<id1>/K/g;s/<name1>/integer/g;s/<id2>/M/g;s/<name2>/ztop/g;" < day04.tex_ > day04e.tex
+sed -e "s/<id>/6/g;s/<id1>/O/g;s/<name1>/table/g;s/<id2>/P/g;s/<name2>/bottom/g;" < day04.tex_ > day04f.tex
+sed -e "s/<id>/7/g;s/<id1>/Q/g;s/<name1>/wall/g;s/<id2>/R/g;s/<name2>/hall/g;" < day04.tex_ > day04g.tex
+sed -e "s/<id>/8/g;s/<id1>/S/g;s/<name1>/step/g;s/<id2>/T/g;s/<name2>/jewel/g;" < day04.tex_ > day04h.tex
+sed -e "s/<id>/9/g;s/<id1>/N/g;s/<name1>/ptoz/g;s/<id2>/V/g;s/<name2>/force/g;" < day04.tex_ > day04i.tex
+sed -e "s/<id>/10/g;s/<id1>/W/g;s/<name1>/nine/g;s/<id2>/X/g;s/<name2>/icht/g;" < day04.tex_ > day04j.tex

@@ -1,0 +1,81 @@
+\begin{problem}{Connect and Disconnect}{connect.in}{connect.out}
+{3 seconds (\textit{4 seconds for Java})}{256 Mebibytes}{}
+
+% Problem author: Sergey Kopeliovich
+% Text author: Sergey Kopeliovich
+% Tests author: Sergey Kopeliovich
+
+Do you know anything about DFS, Depth First Search? 
+For example, using this method, you can determine whether a graph
+is connected or not in $O(E)$ time.
+You can even count the number of connected components in the same time.
+
+Do you know anything about DSU, Disjoint Set Union?
+Using this data structure, you can process queries like
+``Add an edge to the graph'' and
+``Count the number of connected components in the graph'' fast.
+
+And do you know how to solve Dynamic Connectivity Problem?
+In this problem, you have to process three types of queries fast:
+\begin{enumerate}
+  \setlength{\parskip}{-4pt}
+  \setlength{\itemsep}{6pt}
+  \item Add an edge to the graph
+  \item Delete an edge from the graph
+  \item Count the number of connected components in the graph
+\end{enumerate}
+
+\InputFile
+
+At the first moment, the graph is empty.
+
+The first line of file contains two integers $N$ and $K$---number of
+vertices and number of queries
+($1 \le N \le 300\,000$, $0 \le K \le 300\,000$).
+Next $K$ lines contain queries, one per line.
+There are three types of queries:
+\begin{enumerate}
+  \setlength{\parskip}{-2pt}
+  \setlength{\itemsep}{7pt}
+  \item \t{+ $u$ $v$}: add an edge between vertices $u$ and $v$.
+  It is guaranteed that there is no such edge in the graph at the time
+  of the query.
+  \item \t{- $u$ $v$}: remove an edge between vertices $u$ and $v$.
+  It is guaranteed that this edge is present in the graph at the time
+  of the query.
+  \item \t{?}: count the number of connectivity components in the graph
+  at the time of the query.
+\end{enumerate}
+Vertices are numbered $1$ through $N$.
+No query will have $u = v$.
+The graph is undirected.
+
+\OutputFile
+
+For each `\t{?}' query, output the number of connectivity components
+in the graph at the time of the query on a single line.
+
+\Example
+\begin{example}
+\exmp{
+5 11
+?
++ 1 2
++ 2 3
++ 3 4
++ 4 5
++ 5 1
+?
+- 2 3
+?
+- 4 5
+?
+}{
+5
+1
+1
+2
+}%
+\end{example}
+
+\end{problem}

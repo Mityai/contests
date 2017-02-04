@@ -1,0 +1,95 @@
+\documentclass[12pt,a4paper,oneside]{article}
+
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[russian]{olymp}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{epigraph}
+\usepackage[russian]{hyperref}
+\usepackage{color}
+\usepackage{lastpage}
+\usepackage{import}
+\usepackage{verbatim}
+
+\renewcommand{\t}{\texttt}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\ge}{\geqslant}
+
+\binoppenalty=10000
+\relpenalty=10000
+\exhyphenpenalty=10000
+
+\newcommand{\ProblemLabel}{undefined}
+\newcommand{\ProblemTL}{undefined}
+\newcommand{\ProblemML}{undefined}
+\newcommand{\ProblemName}{undefined}
+
+\def\O{\mathcal{O}}
+
+\def\probl#1#2#3#4#5{
+  \renewcommand{\ProblemName}{#2}
+  \renewcommand{\ProblemLabel}{#3}
+  \renewcommand{\ProblemTL}{#4}
+  \renewcommand{\ProblemML}{#5}
+  %\input #2.tex
+  \import{../problems/#1/#2/statement/}{#2}
+  %\input ../problems/#1/#2/statement/#2.tex
+}
+\def\problfix#1#2#3#4#5{
+  \renewcommand{\ProblemName}{#2}
+  \renewcommand{\ProblemLabel}{#3}
+  \renewcommand{\ProblemTL}{#4}
+  \renewcommand{\ProblemML}{#5}
+  \input ../problems/#1/#2/statement/#2.tex
+}
+          
+\newcommand{\Section}[1]{
+  \hbox{\hspace{1em}}
+  \vspace*{-2.5em}
+  \section*{#1}
+  \addcontentsline{toc}{section}{#1}
+  \vspace*{-0.5em}
+}
+
+\contest
+{ЛКШ.2015.Июль.AS.День 5: суффиксный блиц}%
+{Судиславль, Берендеевы Поляны}%
+{10 июля 2015, пятница}%
+
+%\sectionfont{\fontsize{8}{8}\selectfont}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{brown}{rgb}{0.5,0.5,0}
+
+\def\compact{
+  \setlength{\parskip}{-5pt}
+  \setlength{\itemsep}{5pt}
+}
+
+\begin{document}
+
+\vspace*{-2em}
+\tableofcontents
+
+\vspace*{1em}
+
+\noindent \underline{\hbox to 1\textwidth{{ } \hfil{ } \hfil{ } }}
+
+\vspace*{1em}
+
+Каждую из задач ABCD нужно сдать двумя способами -- 
+
+и суффиксным деревом (первая копия задачи), и суффиксным автоматом (вторая копия задачи).
+
+\pagebreak
+
+\probl{2015-04}{suftree}{A}{0.5 sec}{256 mb} % - построить суфф.дерево, n <= 10^5
+\probl{2011-05}{refrain}{B}{0.5 sec}{256 mb} % - длина * число вхождений --> max // b, b1
+\probl{2015-04}{freedom}{C}{0.5 sec}{256 mb} % - Общая подстрока двух строк длины 10^5
+\probl{2012-01}{substr3}{D}{0.5 sec}{256 mb} % - Наибольшая общая подстрока 10-и строк длины 10^4
+\probl{2015-02}{typing}{E}{0.5 sec}{256 mb}  % - Выписать текст. За одно действие можно или загрузить в память словарное слово, или выписать одну из его подстрок.
+
+\end{document}

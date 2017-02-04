@@ -1,0 +1,66 @@
+% Перевод: Сергей Копелиович
+% Источник: GCJ 2015, Round 2, Problem A
+
+\begin{problem}{Выпуклая оболочка}
+{stdin}{stdout}
+{1 секунда}{256 мегабайт}{}
+
+Есть $N$ точек на плоскости $p_1, \dots, p_N$.
+Про каждую точку $p_i$ необходимо узнать, сколько точек необходимо удалить, 
+чтобы точка $p_i$ оказалась вершиной выпуклой оболочки оставшихся точек.
+
+\InputFile
+
+Первая строка содержит количество тестов $T$, далее следует описание $T$ тестов.
+Первая строка каждого теста содержит число $N \,(1 \le N \le 3000)$ -- количество точек.
+Далее следует $N$ строк, каждая из которых содержит по два числа $x_i$, $y_i \,(-10^6 \le x_i, y_i \le 10^6)$ -- 
+координаты $i$-ой точки.
+
+\OutputFile
+
+Для каждого теста выведите на отдельной строке $N$ целых чисел ---
+ответы для точек $p_1, \dots, p_N$.
+
+\Scoring
+
+$-10^6 \le X_i, Y_i \le 10^6$.
+
+\begin{itemize}
+  \item {\bf Простая подзадача} \\
+    $1 \le T \le 100$\\
+    $1 \le N \le 15$
+  \item {\bf Сложная подзадача} \\
+    $1 \le T \le 14$\\
+    $1 \le N \le 3000$
+\end{itemize}
+
+\Examples
+
+\begin{example}
+\exmp{
+2
+5
+0 0
+10 0
+10 10
+0 10
+5 5
+9
+0 0
+5 0
+10 0
+0 5
+5 5
+10 5
+0 10
+5 10
+10 10
+}{
+0 0 0 0 1
+0 0 0 0 3 0 0 0 0
+}%
+\end{example}
+
+\end{problem}
+
+%In the first sample case, there are four trees forming a square, and a fifth tree inside the square. Since the first four trees are already on the boundary, the squirrels for those trees each write down 0. Since one tree needs to be cut down for the fifth tree to be on the boundary, the fifth squirrel writes down 1.

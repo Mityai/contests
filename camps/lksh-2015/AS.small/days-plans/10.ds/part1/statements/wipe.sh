@@ -1,0 +1,1 @@
+rm *.{aux,out,log,toc}

@@ -1,0 +1,105 @@
+\documentclass[12pt,a4paper,oneside]{article}
+
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[russian]{olymp}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{epigraph}
+\usepackage[russian]{hyperref}
+\usepackage{color}
+\usepackage{lastpage}
+\usepackage{import}
+\usepackage{verbatim}
+\usepackage{enumerate}
+
+\parindent=0cm
+
+\renewcommand{\t}{\texttt}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\leq}{\leqslant}
+\renewcommand{\ge}{\geqslant}
+\renewcommand{\geq}{\geqslant}
+\DeclareMathOperator{\perm}{perm}
+
+\contest
+{ЛКШ.2015.Июль.AS.День 9: теорсеминар по структурам данных}%
+{Судиславль, Берендеевы Поляны}%
+{15 июля 2015, среда}%
+
+\binoppenalty=10000
+\relpenalty=10000
+\begin{document}
+
+\newenvironment{MyList}{
+  \begin{enumerate}
+  \setlength{\parskip}{0pt}
+  \setlength{\itemsep}{5pt}
+}{
+  \setlength{\parskip}{0pt}
+  \end{enumerate}
+}
+
+\newenvironment{InnerMyList}{
+  \begin{enumerate}[a)]
+  \setlength{\parskip}{0pt}
+  \setlength{\itemsep}{2pt}
+}{
+  \setlength{\parskip}{0pt}
+  \end{enumerate}
+}
+
+\newcommand{\q}[1]{\langle #1 \rangle}
+\newcommand\NO[1]{\t{\##1}}
+\def\O{\mathcal{O}}
+\def\EPS{\varepsilon}
+\def\SO{\Rightarrow}
+\def\EQ{\Leftrightarrow}
+\def\t{\texttt}
+\def\XOR{\text{ {\raisebox{-2pt}{\ensuremath{\Hat{}}}} }}
+\def\LINE{\vspace*{-1em}\noindent \underline{\hbox to 1\textwidth{{ } \hfil{ } \hfil{ } }}}
+\newcommand{\sfrac}[2]{{\scriptstyle\frac{#1}{#2}}}  % Очень маленькая дробь
+\newcommand{\mfrac}[2]{{\textstyle\frac{#1}{#2}}}    % Небольшая дробь
+
+\vspace*{0em}
+\centerline{\Large\bf Задачи теоретического семинара}
+
+\bigskip
+
+Меняющийся массив: 
+\begin{InnerMyList}
+  \item \t{a[i] = x;}
+  \item \t{insert(i, x);}
+\end{InnerMyList}
+
+{\bf Задачи на дерево отрезков}
+
+\begin{MyList}
+  \setcounter{enumi}{-1}
+  \item Даны точки на плоскости. Online запросы: добавить/удалить точку, \t{max} вес точки в прямоугольнике. $\O(\log^2 n)$.
+  \item Дан массив. Запросы \t{a[i] = x}; \\
+    \t{get(i, x)} : ближайший справа от $i$ элемент $\ge x$. $\O(\log n)$.
+  \item Даны точки на плоскости. Online запросы: добавить/удалить точку; \\
+    есть ли в $[y_1..y_2] \times [{-}\infty..x]$ хотя бы одна точка? $\O(\log n)$.
+  \item Количество различных на отрезке в offline и online. $\O(\log n)$.
+  \item $k$-я порядковая статистика на отрезке в online. $\O(\log n)$.
+  \item Количество различных чисел на меняющемся массиве в online. $\O(\log^2 n)$.
+  \item $k$-я порядковая статистика на отрезке на меняющемся массиве в online. $\O(\log^2 n)$.
+  \item $k$-я порядковая статистика среди различных чисел на отрезке на меняющемся массиве в online. $\O(\log^3 n)$.
+  \item fractional cascading: даны $k$ отсортированных массивов длины $n$. Запрос: найти для каждого массива количество элементов $\le x$. $\O(k + \log n)$.
+  \item Трасса для американских горок -- последовательность сегментов. У каждого сегмента есть наклон (изменение высоты).
+    Запросы: на отрезке присвоить наклон; узнать первую точку $\ge h_i$. $\O(\log n)$.
+  \item Online запросы: \t{max=} на отрезке, \t{sum} на отрезке. $\O(\log^2 n)$.
+\end{MyList}
+
+{\bf Задачи на корневую оптимизацию}
+
+\begin{MyList}
+  \setcounter{enumi}{10}
+  \item Online запросы: \t{max=}, \t{min=}, \t{sum} на отрезке. $\O(\sqrt{n \log n})$.
+  \item $k$-я порядковая статистика для меняющегося массива. Online. $\O(\sqrt{n \log n})$.
+\end{MyList}
+
+\end{document}

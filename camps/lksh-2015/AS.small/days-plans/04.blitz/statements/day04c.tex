@@ -1,0 +1,59 @@
+\documentclass[12pt,a4paper,oneside]{article}
+
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[russian]{olymp}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{epigraph}
+\usepackage[russian]{hyperref}
+\usepackage{color}
+\usepackage{lastpage}
+\usepackage{import}
+\usepackage{verbatim}
+
+\renewcommand{\t}{\texttt}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\ge}{\geqslant}
+
+\binoppenalty=10000
+\relpenalty=10000
+\exhyphenpenalty=10000
+
+\newcommand{\ProblemLabel}{undefined}
+\newcommand{\ProblemTL}{undefined}
+\newcommand{\ProblemML}{undefined}
+\newcommand{\ProblemName}{undefined}
+
+\def\NO{\t{\#}}          
+\def\O{\mathcal{O}}
+
+\def\probl#1#2#3#4#5{
+  \renewcommand{\ProblemName}{#2}
+  \renewcommand{\ProblemLabel}{#3}
+  \renewcommand{\ProblemTL}{#4}
+  \renewcommand{\ProblemML}{#5}
+  \import{../problems/#2/statement/}{#2}
+}
+          
+\newcommand{\Section}[1]{
+  \hbox{\hspace{1em}}
+  \vspace*{-2.5em}
+  \section*{#1}
+  \addcontentsline{toc}{section}{#1}
+  \vspace*{-0.5em}
+}
+
+\contest
+{ЛКШ.2015.Июль.AS.День 4: Блиц. Серия \NO{3}.}%
+{Судиславль, Берендеевы Поляны}%
+{9 июля 2015, четверг}%
+
+\begin{document}
+
+\probl{x}{magic}{G}{2 sec}{256 mb} 
+\probl{x}{evaluate}{H}{2 sec}{256 mb} 
+
+\end{document}

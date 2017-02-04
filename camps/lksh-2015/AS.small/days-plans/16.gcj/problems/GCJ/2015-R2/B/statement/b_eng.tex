@@ -1,0 +1,80 @@
+Problem
+
+A kiddie pool is a big container in which you can put water, so that small children can play in it.
+
+You have access to N different sources of water. The ith source of water produces water at rate Ri and at temperature Ci. Initially, all of the water sources are off. Each source of water can be switched on only once, and switched off only once; the act of switching a source on or off takes no additional time. Multiple sources can be on at the same time.
+
+Your pool can hold an infinite amount of water, but you want to fill the pool to a volume of exactly V with a temperature of exactly X, as quickly as possible. If you turn sources on and off optimally (not every source necessarily has to be used), what's the minimum number of seconds it will take you to do this?
+
+For the purposes of this problem, combining water that has volume V0 and temperature X0 with water that has volume V1 and temperature X1 will instantaneously create water with volume V0+V1 and temperature (V0X0 + V1X1) / (V0 + V1). For example, combining 5L of water at 10 degrees with 10L of water at 40 degrees will result in 15L of water at 30 degrees. You should also assume that water does not heat or cool over time except as a result of being combined with other water.
+
+Input
+
+The first line of the input gives the number of test cases, T. T test cases follow. The first line of each test case contains three space-separated numbers: an integer N, and real numbers V and X as described above.
+
+The next N lines each contain two space-separated real numbers, Ri and Ci, the rate of flow and temperature of the ith water source respectively. The volume is expressed in liters, rates of flow are expressed in liters per second, and temperatures are expressed in degrees Celsius.
+
+All real numbers will be exactly specified to four decimal places.
+
+Output
+
+For each test case, output one line containing "Case #x: y", where x is the test case number (starting from 1) and y is the minimum number of seconds it takes to fill the kiddie pool to the right volume and temperature. If it is impossible to do so given the inputs, y should be the string IMPOSSIBLE.
+
+y will be considered correct if it is within an absolute or relative error of 10-6 of the correct answer. See the FAQ for an explanation of what that means, and what formats of real numbers we accept. You can also read there about the format of our input real numbers, in which the decimal point will be represented by the . character.
+
+Limits
+
+1 ≤ T ≤ 100.
+0.1 ≤ X ≤ 99.9.
+0.1 ≤ Ci ≤ 99.9.
+Small dataset
+
+1 ≤ N ≤ 2.
+0.0001 ≤ V ≤ 100.0.
+0.0001 ≤ Ri ≤ 100.0.
+Large dataset
+
+1 ≤ N ≤ 100.
+0.0001 ≤ V ≤ 10000.0.
+0.0001 ≤ Ri ≤ 10000.0.
+Sample
+
+
+Input 
+ 	
+Output 
+ 
+6
+1 10.0000 50.0000
+0.2000 50.0000
+2 30.0000 65.4321
+0.0001 50.0000
+100.0000 99.9000
+2 5.0000 99.9000
+30.0000 99.8999
+20.0000 99.7000
+2 0.0001 77.2831
+0.0001 97.3911
+0.0001 57.1751
+2 100.0000 75.6127
+70.0263 75.6127
+27.0364 27.7990
+4 5000.0000 75.0000
+10.0000 30.0000
+20.0000 50.0000
+300.0000 95.0000
+40.0000 2.0000
+
+Case #1: 50.0000000
+Case #2: 207221.843687375
+Case #3: IMPOSSIBLE
+Case #4: 0.500000000
+Case #5: 1.428034895
+Case #6: 18.975332068
+Note that Case #6 is not within the limits for the Small dataset.
+
+In Case #1, the one available source happens to be the exact temperature we need. The optimal strategy is to immediately turn it on and let it run until we have 10 L. Since 0.2 L will come out every second, this takes 50 seconds.
+
+In Case #2, one optimal strategy is to turn on the first source and let it run for 207221.843687375 seconds, and then, about 0.092778156 seconds before the end, also turn on the second source.
+
+In Case #3, both available water sources are cooler than the target temperature, so there is no way to reach it.

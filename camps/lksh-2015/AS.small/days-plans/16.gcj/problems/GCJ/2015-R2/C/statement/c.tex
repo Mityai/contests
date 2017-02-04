@@ -1,0 +1,75 @@
+% Перевод: Сергей Копелиович
+% Источник: GCJ 2015, Round 2, Problem C
+
+\begin{problem}{Англофранцузский словарь}
+{stdin}{stdout}
+{1 секунда}{256 мегабайт}{}
+
+Родители Вани дома говорят по-французски и по-английски. Он слышит много сло, но не сегда знает, из какого именно языка то или иное слово.
+Ваня записал $N$ предложений (текстов).
+Про первое Ваня уверен, что оно состоит целиком из английских слов.
+А про второе предложение Ваня уверен, что оно состоит целиком из французских слов.
+А про оставшиеся Ваня не уверен, но точно знает, что каждое предложение или целиком английское, или целиком французское.
+Заметим, что у английского и французского много общего, поэтому некоторые слова могут встречаться в обоих языках.
+Помогите Ване так распределить $N$ предложений по языковой принадлежности, чтобы количество слов одновременно
+входящих и во французский, и в английский было минимально возможным.
+
+\InputFile
+
+Первая строка содержит количество тестов $T$, далее следует описание $T$ тестов.
+Каждый тест содержит $N$ и $N$ предложений, каждое на отедельной строке.
+Предложения состоят из слов, слова из маленьких букв \t{a-z}.
+
+\OutputFile
+
+Для каждого теста выведите на отдельной строке одно целое число -- минимальное число слов, которые одновременно и английские, и французские.
+
+\Scoring
+
+$1 \le T \le 25$\\
+Каждое слово состоит из не более чем 10 букв.
+Два первых предложения содержат не более 1000 слов каждое.
+Оставшиеся предложения содержат не более 10 слов каждое.
+
+\begin{itemize}
+  \item {\bf Простая подзадача:} $2 \le N \le 20$ 
+  \item {\bf Сложная подзадача:} $2 \le N \le 200$ 
+\end{itemize}
+
+\Examples
+
+\begin{example}
+\exmp{
+4
+2
+he loves to eat baguettes
+il aime manger des baguettes
+4
+a b c d e
+f g h i j
+a b c i j
+f g h d e
+4
+he drove into a cul de sac
+elle a conduit sa voiture
+il a conduit dans un cul de sac
+il mange pendant que il conduit sa voiture
+6
+adieu joie de vivre je ne regrette rien
+adieu joie de vivre je ne regrette rien
+a b c d e
+f g h i j
+a b c i j
+f g h d e
+}{
+1
+4
+3
+8
+}%
+\end{example}
+
+\end{problem}
+
+%In Case #1, Elliot knows for sure that the first sentence is in English and the second is in French, so there is no ambiguity; the only word that must be in both English and French is "baguettes".
+%In Case #2, the last two sentences could either be: English English, English French, French English, or French French. The second of those possibilities is the one that minimizes the number of words common to both languages; that set turns out to be d, e, i, and j.
