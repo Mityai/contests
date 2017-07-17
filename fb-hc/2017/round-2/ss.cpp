@@ -19,7 +19,7 @@ int main() {
         if (2 * k + 1 <= n) {
             s = min(s, 4ll + (k == 1));
         }
-        if (2 * k + 3 > m) s = -1;
+        if (2 * k + 3 > m || k >= n) s = -1;
         printf("Case #%d: %lld\n", test, s);
     }
 }
