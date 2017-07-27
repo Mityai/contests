@@ -1,0 +1,42 @@
+<problem 
+    version="1.0"
+    id = "ru.ifmo.neerc.io.2010-2011.20101211i.mail"
+>
+    <judging>
+        <script type = "%ioi">
+            <testset
+                name = "preliminary"
+
+                input-name = "mail.in"
+                output-name = "mail.out"
+                input-href = "preliminary/##"
+                answer-href = "preliminary/##.a"
+
+                test-count = "2"
+
+                time-limit = "2s"
+                memory-limit = "268435456"
+            />
+
+            <testset
+                name = "main"
+
+                input-name = "mail.in"
+                output-name = "mail.out"
+                input-href = "tests/##"
+                answer-href = "tests/##.a"
+
+                test-count = "50"
+
+                points = "2,2,2,2,2, 2,2,2,2,2, 2,2,2,2,2, 2,2,2,2,2, 2,2,2,2,2, 2,2,2,2,2, 2,2,2,2,2, 2,2,2,2,2, 2,2,2,2,2, 2,2,2,2,2"
+
+                time-limit = "2s"
+                memory-limit = "268435456"
+            />
+
+            <verifier type="%testlib">
+                <binary executable-id = "x86.exe.win32" file = "check.exe" />
+            </verifier>
+        </script>
+    </judging>
+</problem>

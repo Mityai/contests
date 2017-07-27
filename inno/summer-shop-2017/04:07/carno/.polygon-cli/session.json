@@ -1,0 +1,175 @@
+{
+  "ccid": null,
+  "cookies": {
+    "JSESSIONID": "9CB4FB961F729735D5BC0442BFB3BD14-n1"
+  },
+  "localFiles": [
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "olymp.sty",
+      "name": "olymp",
+      "polygon_filename": "olymp.sty",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "problem.tex",
+      "name": "problem",
+      "polygon_filename": "problem.tex",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "statements.ftl",
+      "name": "statements",
+      "polygon_filename": "statements.ftl",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "testlib.h",
+      "name": "testlib",
+      "polygon_filename": "testlib.h",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "gen.cpp",
+      "name": "gen",
+      "polygon_filename": "gen.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "gen_random.cpp",
+      "name": "gen_random",
+      "polygon_filename": "gen_random.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "validate.cpp",
+      "name": "validate",
+      "polygon_filename": "validate.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "",
+      "filename": "script",
+      "name": "script",
+      "polygon_filename": "script",
+      "tag": null,
+      "type": "script"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "lca_ek.cpp",
+      "name": "lca_ek",
+      "polygon_filename": "lca_ek.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "lca_ek_stupid.cpp",
+      "name": "lca_ek_stupid",
+      "polygon_filename": "lca_ek_stupid.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "lca_ek_tl.cpp",
+      "name": "lca_ek_tl",
+      "polygon_filename": "lca_ek_tl.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "lca_ek_tl2.cpp",
+      "name": "lca_ek_tl2",
+      "polygon_filename": "lca_ek_tl2.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "lca_ek_wa.cpp",
+      "name": "lca_ek_wa",
+      "polygon_filename": "lca_ek_wa.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "lca_pkun.cpp",
+      "name": "lca_pkun",
+      "polygon_filename": "lca_pkun.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "lca_pkun_wrong.cpp",
+      "name": "lca_pkun_wrong",
+      "polygon_filename": "lca_pkun_wrong.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "lca_pkun_wrong2.cpp",
+      "name": "lca_pkun_wrong2",
+      "polygon_filename": "lca_pkun_wrong2.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "lca_pkun_wrong3.cpp",
+      "name": "lca_pkun_wrong3",
+      "polygon_filename": "lca_pkun_wrong3.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "lca_pkun_wrong4.cpp",
+      "name": "lca_pkun_wrong4",
+      "polygon_filename": "lca_pkun_wrong4.cpp",
+      "tag": null,
+      "type": "solution"
+    }
+  ],
+  "owner": null,
+  "problemId": "37293",
+  "problemName": null,
+  "sessionId": null,
+  "version": 1
+}

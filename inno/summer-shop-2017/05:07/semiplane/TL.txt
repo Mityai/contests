@@ -1,0 +1,3 @@
+TL = (MaxTime of semiplane_sk_nsqrtn.cpp) * [from 2 to 3]
+
+semiplane_sk_nsqrtn_TL должно получать TLE с запасом в 2 раза.

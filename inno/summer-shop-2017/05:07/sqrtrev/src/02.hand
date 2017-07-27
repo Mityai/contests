@@ -1,0 +1,26 @@
+1
+10
+23
+get 1 1 9
+get 1 1 10
+get 1 1 11
+reverse 1 1
+get 1 1 9
+get 1 1 10
+get 1 1 11
+set 1 1 20
+get 1 1 19
+get 1 1 20
+get 1 1 21
+reverse 1 1
+get 1 1 19
+get 1 1 20
+get 1 1 21
+set 1 1 10
+get 1 1 9
+get 1 1 10
+get 1 1 11
+reverse 1 1
+get 1 1 9
+get 1 1 10
+get 1 1 11

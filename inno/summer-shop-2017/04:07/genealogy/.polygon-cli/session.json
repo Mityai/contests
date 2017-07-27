@@ -1,0 +1,139 @@
+{
+  "ccid": null,
+  "cookies": {
+    "JSESSIONID": "27C1F8E3154D55781C874D63540BD4D4-n1"
+  },
+  "localFiles": [
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "gen.cpp",
+      "name": "gen",
+      "polygon_filename": "gen.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "gen_leaves.cpp",
+      "name": "gen_leaves",
+      "polygon_filename": "gen_leaves.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "val.cpp",
+      "name": "val",
+      "polygon_filename": "val.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "olymp.sty",
+      "name": "olymp",
+      "polygon_filename": "olymp.sty",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "problem.tex",
+      "name": "problem",
+      "polygon_filename": "problem.tex",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "random.h",
+      "name": "random",
+      "polygon_filename": "random.h",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "statements.ftl",
+      "name": "statements",
+      "polygon_filename": "statements.ftl",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "testlib.h",
+      "name": "testlib",
+      "polygon_filename": "testlib.h",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "",
+      "filename": "script",
+      "name": "script",
+      "polygon_filename": "script",
+      "tag": null,
+      "type": "script"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "genealogy_ni.cpp",
+      "name": "genealogy_ni",
+      "polygon_filename": "genealogy_ni.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "genealogy_ni_java.java",
+      "name": "genealogy_ni_java",
+      "polygon_filename": "genealogy_ni_java.java",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "genealogy_ni_n.cpp",
+      "name": "genealogy_ni_n",
+      "polygon_filename": "genealogy_ni_n.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "genealogy_ni_nlogn.cpp",
+      "name": "genealogy_ni_nlogn",
+      "polygon_filename": "genealogy_ni_nlogn.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "genealogy_ni_slow.cpp",
+      "name": "genealogy_ni_slow",
+      "polygon_filename": "genealogy_ni_slow.cpp",
+      "tag": null,
+      "type": "solution"
+    }
+  ],
+  "owner": null,
+  "problemId": "37294",
+  "problemName": null,
+  "sessionId": null,
+  "version": 1
+}

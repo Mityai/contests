@@ -1,0 +1,94 @@
+{
+  "ccid": null,
+  "cookies": {
+    "JSESSIONID": "EB3F16873D5FB2EBB0EB0D8A0EA6D737-n1"
+  },
+  "localFiles": [
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "olymp.sty",
+      "name": "olymp",
+      "polygon_filename": "olymp.sty",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "problem.tex",
+      "name": "problem",
+      "polygon_filename": "problem.tex",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "statements.ftl",
+      "name": "statements",
+      "polygon_filename": "statements.ftl",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "testlib.h",
+      "name": "testlib",
+      "polygon_filename": "testlib.h",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "",
+      "filename": "script",
+      "name": "script",
+      "polygon_filename": "script",
+      "tag": null,
+      "type": "script"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "Mitya_sol.java",
+      "name": "Mitya_sol",
+      "polygon_filename": "Mitya_sol.java",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "brute.cpp",
+      "name": "brute",
+      "polygon_filename": "brute.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "sol.cpp",
+      "name": "sol",
+      "polygon_filename": "sol.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "sol2.cpp",
+      "name": "sol2",
+      "polygon_filename": "sol2.cpp",
+      "tag": null,
+      "type": "solution"
+    }
+  ],
+  "owner": null,
+  "problemId": "48934",
+  "problemName": null,
+  "sessionId": null,
+  "version": 1
+}

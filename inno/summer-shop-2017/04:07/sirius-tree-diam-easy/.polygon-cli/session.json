@@ -1,0 +1,103 @@
+{
+  "ccid": null,
+  "cookies": {
+    "JSESSIONID": "5088BAB14C16ED0A3394BF01F84D152A-n1"
+  },
+  "localFiles": [
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "olymp.sty",
+      "name": "olymp",
+      "polygon_filename": "olymp.sty",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "problem.tex",
+      "name": "problem",
+      "polygon_filename": "problem.tex",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "statements.ftl",
+      "name": "statements",
+      "polygon_filename": "statements.ftl",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "testlib.h",
+      "name": "testlib",
+      "polygon_filename": "testlib.h",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "easy_gen.cpp",
+      "name": "easy_gen",
+      "polygon_filename": "easy_gen.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "easy_ver.cpp",
+      "name": "easy_ver",
+      "polygon_filename": "easy_ver.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "",
+      "filename": "script",
+      "name": "script",
+      "polygon_filename": "script",
+      "tag": null,
+      "type": "script"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "boba5551_tree-diam-easy.cpp",
+      "name": "boba5551_tree-diam-easy",
+      "polygon_filename": "boba5551_tree-diam-easy.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "easy_sol.cpp",
+      "name": "easy_sol",
+      "polygon_filename": "easy_sol.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "easy_yes_wrong.cpp",
+      "name": "easy_yes_wrong",
+      "polygon_filename": "easy_yes_wrong.cpp",
+      "tag": null,
+      "type": "solution"
+    }
+  ],
+  "owner": null,
+  "problemId": "48013",
+  "problemName": null,
+  "sessionId": null,
+  "version": 1
+}

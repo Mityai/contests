@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/olymp/!svn/ver/22935/io-2010-2011/personal01/problems/mail/tests
+END
+onecheck.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/olymp/!svn/ver/22935/io-2010-2011/personal01/problems/mail/tests/onecheck.cmd
+END
+docheck.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/olymp/!svn/ver/22864/io-2010-2011/personal01/problems/mail/tests/docheck.cmd
+END
+clean.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/olymp/!svn/ver/22864/io-2010-2011/personal01/problems/mail/tests/clean.cmd
+END
+gen_mail.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/olymp/!svn/ver/22922/io-2010-2011/personal01/problems/mail/tests/gen_mail.java
+END
+doall.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/olymp/!svn/ver/22864/io-2010-2011/personal01/problems/mail/tests/doall.cmd
+END
+tall.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/olymp/!svn/ver/22864/io-2010-2011/personal01/problems/mail/tests/tall.cmd
+END

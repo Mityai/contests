@@ -1,0 +1,58 @@
+{
+  "ccid": null,
+  "cookies": {
+    "JSESSIONID": "0BF23E6D49A4AA8B99E798EBCE3FD847-n1"
+  },
+  "localFiles": [
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "olymp.sty",
+      "name": "olymp",
+      "polygon_filename": "olymp.sty",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "problem.tex",
+      "name": "problem",
+      "polygon_filename": "problem.tex",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "statements.ftl",
+      "name": "statements",
+      "polygon_filename": "statements.ftl",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "testlib.h",
+      "name": "testlib",
+      "polygon_filename": "testlib.h",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "",
+      "filename": "script",
+      "name": "script",
+      "polygon_filename": "script",
+      "tag": null,
+      "type": "script"
+    }
+  ],
+  "owner": null,
+  "problemId": 48940,
+  "problemName": null,
+  "sessionId": null,
+  "version": 1
+}

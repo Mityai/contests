@@ -1,0 +1,94 @@
+{
+  "ccid": null,
+  "cookies": {
+    "JSESSIONID": "FC282DB57A9ABF1935313B8B2A9170B3-n1"
+  },
+  "localFiles": [
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "olymp.sty",
+      "name": "olymp",
+      "polygon_filename": "olymp.sty",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "problem.tex",
+      "name": "problem",
+      "polygon_filename": "problem.tex",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "random.h",
+      "name": "random",
+      "polygon_filename": "random.h",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "rng.pas",
+      "name": "rng",
+      "polygon_filename": "rng.pas",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "statements.ftl",
+      "name": "statements",
+      "polygon_filename": "statements.ftl",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "testlib.h",
+      "name": "testlib",
+      "polygon_filename": "testlib.h",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "testlib.pas",
+      "name": "testlib",
+      "polygon_filename": "testlib.pas",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "",
+      "filename": "script",
+      "name": "script",
+      "polygon_filename": "script",
+      "tag": null,
+      "type": "script"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "grundy_pm.java",
+      "name": "grundy_pm",
+      "polygon_filename": "grundy_pm.java",
+      "tag": null,
+      "type": "solution"
+    }
+  ],
+  "owner": null,
+  "problemId": 48501,
+  "problemName": null,
+  "sessionId": null,
+  "version": 1
+}

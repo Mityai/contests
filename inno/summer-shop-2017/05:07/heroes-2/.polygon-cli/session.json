@@ -1,0 +1,148 @@
+{
+  "ccid": null,
+  "cookies": {
+    "JSESSIONID": "413177658F537C43400EE40C87EC2B6A-n1"
+  },
+  "localFiles": [
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "olymp.sty",
+      "name": "olymp",
+      "polygon_filename": "olymp.sty",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "problem.tex",
+      "name": "problem",
+      "polygon_filename": "problem.tex",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "random.h",
+      "name": "random",
+      "polygon_filename": "random.h",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "rng.pas",
+      "name": "rng",
+      "polygon_filename": "rng.pas",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "statements.ftl",
+      "name": "statements",
+      "polygon_filename": "statements.ftl",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "testlib.h",
+      "name": "testlib",
+      "polygon_filename": "testlib.h",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "testlib.pas",
+      "name": "testlib",
+      "polygon_filename": "testlib.pas",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "testlib4j.jar",
+      "name": "testlib4j",
+      "polygon_filename": "testlib4j.jar",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "gen_blocks.cpp",
+      "name": "gen_blocks",
+      "polygon_filename": "gen_blocks.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "gen_close.cpp",
+      "name": "gen_close",
+      "polygon_filename": "gen_close.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "gen_random.cpp",
+      "name": "gen_random",
+      "polygon_filename": "gen_random.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "gen_worstcase_nm.cpp",
+      "name": "gen_worstcase_nm",
+      "polygon_filename": "gen_worstcase_nm.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "validate.cpp",
+      "name": "validate",
+      "polygon_filename": "validate.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "",
+      "filename": "script",
+      "name": "script",
+      "polygon_filename": "script",
+      "tag": null,
+      "type": "script"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "sol_nsqrtc_100.cpp",
+      "name": "sol_nsqrtc_100",
+      "polygon_filename": "sol_nsqrtc_100.cpp",
+      "tag": null,
+      "type": "solution"
+    }
+  ],
+  "owner": null,
+  "problemId": 41839,
+  "problemName": null,
+  "sessionId": null,
+  "version": 1
+}

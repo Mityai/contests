@@ -1,0 +1,94 @@
+{
+  "ccid": null,
+  "cookies": {
+    "JSESSIONID": "1A625E555F90CD79CED2F7647418973E-n1"
+  },
+  "localFiles": [
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "medium_gen.cpp",
+      "name": "medium_gen",
+      "polygon_filename": "medium_gen.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "medium_ver.cpp",
+      "name": "medium_ver",
+      "polygon_filename": "medium_ver.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "olymp.sty",
+      "name": "olymp",
+      "polygon_filename": "olymp.sty",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "problem.tex",
+      "name": "problem",
+      "polygon_filename": "problem.tex",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "statements.ftl",
+      "name": "statements",
+      "polygon_filename": "statements.ftl",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "testlib.h",
+      "name": "testlib",
+      "polygon_filename": "testlib.h",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "",
+      "filename": "script",
+      "name": "script",
+      "polygon_filename": "script",
+      "tag": null,
+      "type": "script"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "boba5551_tree-diam-medium.cpp",
+      "name": "boba5551_tree-diam-medium",
+      "polygon_filename": "boba5551_tree-diam-medium.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "medium_sol.cpp",
+      "name": "medium_sol",
+      "polygon_filename": "medium_sol.cpp",
+      "tag": null,
+      "type": "solution"
+    }
+  ],
+  "owner": null,
+  "problemId": "48022",
+  "problemName": null,
+  "sessionId": null,
+  "version": 1
+}

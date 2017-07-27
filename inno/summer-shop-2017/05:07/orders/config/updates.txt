@@ -1,0 +1,28 @@
+2014.05.30 [Burunduk1]
+  -- rm orders_sk_treap_debug.cpp
+  -- добавлены комментарии "сколько работало"
+  -- orders_sk_nsqrtn_fastio.cpp
+
+2014.03.21 [Burunduk1]
+  -- put my_testlib.h
+  -- updates.txt -> utf-8
+
+2013.03.29 [Burunduk1]
+  -- Создан TL.txt (как выставлять TL-и)
+  -- makefile : проставлена правильная связь с решением
+  -- doall.sh : добвлен twf.c (well-format), исправлены ошибки связанные с кроссплатформенностью, добавлен вызов genans.sh
+  -- validate.cpp : исправлен баг в строке 44
+
+2013.03.05 [Burunduk1]
+  -- Переписан чекер, добавлен чекер с my_testlib
+  -- Добавлены комментарии и assert-ы в решения
+  -- Добавлены два решения за nlog^2n: orders_sk_set, orders_sk_treap
+
+2013.03.01 [Burunduk1]
+  -- Текущая версия задачи закоммичена в локальный Burunduk1's git 
+
+2011.12.?? [Burunduk1]
+  -- Текущая версия задачи добавлена в bank-of-problems
+
+2010.10.10 [Burunduk1]
+  -- Оригинальная версия, подготовленная к чемпионату СПБГУ

@@ -1,0 +1,102 @@
+randGen 10 10 1 > $
+randGen 10 10 2 > $
+randGen 10 10 3 > $
+randGen 10 10 4 > $
+randGen 10 10 5 > $
+exactGen 1 1 > $
+exactGen 1 2 > $
+exactGen 1 3 > $
+exactGen 1 4 > $
+exactGen 2 1 > $
+exactGen 2 2 > $
+exactGen 2 3 > $
+exactGen 2 4 > $
+exactGen 3 1 > $
+exactGen 3 2 > $
+exactGen 3 3 > $
+exactGen 3 4 > $
+exactGen 4 1 > $
+exactGen 4 2 > $
+exactGen 4 3 > $
+exactGen 4 4 > $
+exactGen 5 1 > $
+exactGen 5 2 > $
+exactGen 5 3 > $
+exactGen 5 4 > $
+exactGen 6 1 > $
+exactGen 6 2 > $
+exactGen 6 3 > $
+exactGen 6 4 > $
+exactGen 7 1 > $
+exactGen 7 2 > $
+exactGen 7 3 > $
+exactGen 7 4 > $
+exactGen 8 1 > $
+exactGen 8 2 > $
+exactGen 8 3 > $
+exactGen 8 4 > $
+exactGen 9 1 > $
+exactGen 9 2 > $
+exactGen 9 3 > $
+exactGen 9 4 > $
+exactGen 10 1 > $
+exactGen 10 2 > $
+exactGen 10 3 > $
+exactGen 10 4 > $
+exactGen 11 1 > $
+exactGen 11 2 > $
+exactGen 11 3 > $
+exactGen 11 4 > $
+exactGen 12 1 > $
+exactGen 12 2 > $
+exactGen 12 3 > $
+exactGen 12 4 > $
+exactGen 13 1 > $
+exactGen 13 2 > $
+exactGen 13 3 > $
+exactGen 13 4 > $
+exactGen 14 1 > $
+exactGen 14 2 > $
+exactGen 14 3 > $
+exactGen 14 4 > $
+exactGen 15 1 > $
+exactGen 15 2 > $
+exactGen 15 3 > $
+exactGen 15 4 > $
+exactGen 16 1 > $
+exactGen 16 2 > $
+exactGen 16 3 > $
+exactGen 16 4 > $
+exactGen 100 8 > $
+exactGen 100 100 > $
+exactGen 20 100 > $
+randGen 100 9 1 > $
+randGen 100 9 2 > $
+randGen 100 9 3 > $
+randGen 100 9 4 > $
+randGen 100 9 5 > $
+randGen 100 9 6 > $
+randGen 100 9 7 > $
+randGen 100 9 8 > $
+randGen 100 9 9 > $
+randGen 100 9 10 > $
+randGen 100 9 11 > $
+randGen 100 9 12 > $
+randGen 100 9 13 > $
+randGen 100 9 14 > $
+randGen 100 9 15 > $
+randGen 100 9 16 > $
+randGen 100 9 17 > $
+randGen 100 9 18 > $
+randGen 100 9 19 > $
+randGen 100 9 20 > $
+randGen 100 9 21 > $
+randGen 100 9 22 > $
+randGen 100 9 23 > $
+randGen 100 9 24 > $
+randGen 100 9 25 > $
+randGen 100 9 26 > $
+randGen 100 9 27 > $
+randGen 100 9 28 > $
+randGen 100 9 29 > $
+randGen 100 9 30 > $

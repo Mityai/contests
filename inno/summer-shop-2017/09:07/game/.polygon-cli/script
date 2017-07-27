@@ -1,0 +1,9 @@
+dorand 10 20 17 > $
+dorand 100 377 891 > $
+dorand 10000 100000 4321 > $
+dolinear 256 16961 > $
+dolinear 10000 567 > $
+do12 > $
+dorand 10000 10000 5409 > $
+dorand 9999 100 1567 > $
+do15 > $

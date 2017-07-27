@@ -1,0 +1,103 @@
+{
+  "ccid": null,
+  "cookies": {
+    "JSESSIONID": "7064AE3F53702663F6C523AD9C4ACD62-n1"
+  },
+  "localFiles": [
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "TestsGen.java",
+      "name": "TestsGen",
+      "polygon_filename": "TestsGen.java",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "olymp.sty",
+      "name": "olymp",
+      "polygon_filename": "olymp.sty",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "problem.tex",
+      "name": "problem",
+      "polygon_filename": "problem.tex",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "statements.ftl",
+      "name": "statements",
+      "polygon_filename": "statements.ftl",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "testlib.h",
+      "name": "testlib",
+      "polygon_filename": "testlib.h",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "",
+      "filename": "script",
+      "name": "script",
+      "polygon_filename": "script",
+      "tag": null,
+      "type": "script"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "longrepeat.java",
+      "name": "longrepeat",
+      "polygon_filename": "longrepeat.java",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "longrepeat_dumb.java",
+      "name": "longrepeat_dumb",
+      "polygon_filename": "longrepeat_dumb.java",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "longrepeat_n2.java",
+      "name": "longrepeat_n2",
+      "polygon_filename": "longrepeat_n2.java",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "longrepeat_n2_noml.java",
+      "name": "longrepeat_n2_noml",
+      "polygon_filename": "longrepeat_n2_noml.java",
+      "tag": null,
+      "type": "solution"
+    }
+  ],
+  "owner": null,
+  "problemId": 42408,
+  "problemName": null,
+  "sessionId": null,
+  "version": 1
+}

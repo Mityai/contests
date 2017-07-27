@@ -1,0 +1,8 @@
+orders_sk_n2.cpp       : TL (запас в 3 раза)
+orders_sk_n2_nlogn.cpp : TL (запас в 3 раза)
+orders_sk_set.cpp      : TL (запас в 3 раза)
+
+orders_vv.cpp             : AC (запас в 2 раза)
+orders_sk_nsqrtn.cpp      : AC (запас в 2 раза)
+orders_sk_treap.cpp       : AC (без запаса)
+orders_sk_nsqrtn_logn.cpp : AC (без запаса)

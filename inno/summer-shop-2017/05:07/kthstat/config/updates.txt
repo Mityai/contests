@@ -1,0 +1,11 @@
+2014.06.23 [Burunduk1]
+  -- no_graders/kthstat_sk.cpp
+  -- kthstat_sk_nsqrtn.cpp --> kthstat_sk_nsqrtn_WA.cpp
+
+2014.05.30 [Burunduk1]
+  -- решения из корня -> solutions/no_graders
+  -- для solutions/no_graders добавлены комментарии "сколько работает"
+  -- check.cpp : прибит некорректный комментарий в коде
+
+2014.03.27 [Burunduk1]
+  -- созданы копии решений без градеров

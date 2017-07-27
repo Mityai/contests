@@ -1,0 +1,238 @@
+{
+  "ccid": null,
+  "cookies": {
+    "JSESSIONID": "A1F174A9671333F2F4AF3B89F654D405-n1"
+  },
+  "localFiles": [
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "all_queries.cpp",
+      "name": "all_queries",
+      "polygon_filename": "all_queries.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "edge_queries.cpp",
+      "name": "edge_queries",
+      "polygon_filename": "edge_queries.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "gen_bamboo.cpp",
+      "name": "gen_bamboo",
+      "polygon_filename": "gen_bamboo.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "gen_bamboo_antisqrt.cpp",
+      "name": "gen_bamboo_antisqrt",
+      "polygon_filename": "gen_bamboo_antisqrt.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "gen_bamboostar.cpp",
+      "name": "gen_bamboostar",
+      "polygon_filename": "gen_bamboostar.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "gen_bamboostar_manual.cpp",
+      "name": "gen_bamboostar_manual",
+      "polygon_filename": "gen_bamboostar_manual.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "gen_bamboostar_manual_rays.cpp",
+      "name": "gen_bamboostar_manual_rays",
+      "polygon_filename": "gen_bamboostar_manual_rays.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "gen_rand.cpp",
+      "name": "gen_rand",
+      "polygon_filename": "gen_rand.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "gen_star.cpp",
+      "name": "gen_star",
+      "polygon_filename": "gen_star.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "shuffle.cpp",
+      "name": "shuffle",
+      "polygon_filename": "shuffle.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "validator.cpp",
+      "name": "validator",
+      "polygon_filename": "validator.cpp",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "olymp.sty",
+      "name": "olymp",
+      "polygon_filename": "olymp.sty",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "problem.tex",
+      "name": "problem",
+      "polygon_filename": "problem.tex",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "statements.ftl",
+      "name": "statements",
+      "polygon_filename": "statements.ftl",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "testlib.h",
+      "name": "testlib",
+      "polygon_filename": "testlib.h",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "",
+      "filename": "script",
+      "name": "script",
+      "polygon_filename": "script",
+      "tag": null,
+      "type": "script"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "sol_as_nsqrtnlogn.cpp",
+      "name": "sol_as_nsqrtnlogn",
+      "polygon_filename": "sol_as_nsqrtnlogn.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "sol_ma_nq.cpp",
+      "name": "sol_ma_nq",
+      "polygon_filename": "sol_ma_nq.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "sol_mitya_mo.cpp",
+      "name": "sol_mitya_mo",
+      "polygon_filename": "sol_mitya_mo.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "sol_mitya_roots.cpp",
+      "name": "sol_mitya_roots",
+      "polygon_filename": "sol_mitya_roots.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "solution_dg_n2logn.cpp",
+      "name": "solution_dg_n2logn",
+      "polygon_filename": "solution_dg_n2logn.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "solution_dg_nsqrtnlogn.cpp",
+      "name": "solution_dg_nsqrtnlogn",
+      "polygon_filename": "solution_dg_nsqrtnlogn.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "solution_dg_nsqrtnlogn_random_points.cpp",
+      "name": "solution_dg_nsqrtnlogn_random_points",
+      "polygon_filename": "solution_dg_nsqrtnlogn_random_points.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "solution_dg_nsqrtnlogn_random_points_heap.cpp",
+      "name": "solution_dg_nsqrtnlogn_random_points_heap",
+      "polygon_filename": "solution_dg_nsqrtnlogn_random_points_heap.cpp",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "solution_nb.cpp",
+      "name": "solution_nb",
+      "polygon_filename": "solution_nb.cpp",
+      "tag": null,
+      "type": "solution"
+    }
+  ],
+  "owner": null,
+  "problemId": "41765",
+  "problemName": null,
+  "sessionId": null,
+  "version": 1
+}

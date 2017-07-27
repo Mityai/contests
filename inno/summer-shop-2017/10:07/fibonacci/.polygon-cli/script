@@ -1,0 +1,14 @@
+GeneralFibTestGen 2 0 > $
+GeneralFibTestGen 3 1 > $
+GeneralFibTestGen 4 10 > $
+GeneralFibTestGen 5 1000 > $
+GeneralFibTestGen 6 1000000 > $
+GeneralFibTestGen 7 10000000 > $
+GeneralFibTestGen 8 100000000 > $
+GeneralFibTestGen 9 1234567891 > $
+GeneralFibTestGen 10 1000000000000 > $
+GeneralFibTestGen 9 100000000000000000 > $
+GeneralFibTestGen 10 100000000000000000 > $
+GeneralFibTestGen 9 1000000000000000000 > $
+GeneralFibTestGen 3 1000000000000000000 > $
+GeneralFibTestGen 9 0 > $

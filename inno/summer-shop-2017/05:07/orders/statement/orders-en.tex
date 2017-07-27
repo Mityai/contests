@@ -1,0 +1,91 @@
+% Problem author: Sergey Kopeliovich & Jury
+% Text author: Yury Petrov & Sergey Kopeliovich
+% Tests author: Sergey Kopeliovich
+
+\begin{problem}{Orders}{orders.in}{orders.out}
+{5 seconds (6 for Java)}{256 Mebibytes}{}
+
+Vasya works for RIGHT (Research Institute of Government
+using Hash Tables). He is studying orders of some government
+of a country far far away.
+
+In that country all towns are placed along some road. They
+are also numbered in the order of traversal. Initially,
+the quality level of life (QLoL) in every town equals zero.
+
+After it, several orders have been issued. There is
+the only kind of orders: ``the QLoL of all the towns $i$ through $j$
+must become at least $x$''.
+
+There are also some official statements. They come in the
+following form: ``average QLoL of towns $i$ through $j$ equals $x$''.
+Vasya wants you to help him check each of these statements in the following
+way: for each of them, you will be given only the pair $(i, j)$,
+and your answer must contain the correct value of $x$.
+
+You may assume that each order was executed, and at each moment of time,
+each town had the least possible QLoL satisfying all orders.
+
+\InputFile
+
+The input consists of one or more test cases.
+Each test case starts with a line containing two
+integers $n$ and $k$ "--- the number of towns in the
+country and the number of orders. The following $k$ lines
+will contain one event each. The event can be one of
+the following:
+
+\begin{shortnums}
+  \item
+    \t{\^} $i$ $j$ $x$ is an order: after it, all towns numbered $i$
+    through $j$ must have QLoL at least $x$ ($1 \le x \le 10^9$,
+    $1 \le i \le j \le n$).
+  \item
+    \vskip 4pt
+    \t{?} $i$ $j$ is an official statement; you should calculate
+    the average QLoL for all towns numbered $i$ through $j$
+    ($1 \le i \le j \le n$).
+\end{shortnums}
+
+The input will be terminated with a test case with $n = k = 0$
+which should not be processed.
+
+The sum of $n$'s in the whole input will not exceed $100\,000$.
+The sum of $k$'s in the whole input will not exceed $100\,000$.
+%The number of orders of kind \t{1} (\t{\^} $i$ $j$ $x$) in the whole input will not exceed $100\,000$.
+%The number of orders of kind \t{2} (\t{?} $i$ $j$) in the whole input will not exceed $1\,000$.
+
+\OutputFile
+
+For each official statement, write a single line with average QLoL formatted
+as an irreducible fraction with smallest possible natural denominator.
+If the denominator of some value is $1$, write it as an integer instead.
+See sample output for details.
+
+\Example
+\begin{example}
+\exmp{
+10 10
+? 1 10
+\^  1 10 1
+? 1 10
+\^  2 3 10
+\^  3 4 5
+? 2 2
+? 3 3
+? 4 4
+? 1 5
+? 1 10
+0 0
+}{
+0
+1
+10
+10
+5
+27/5
+16/5
+}%
+\end{example}
+
+\end{problem}

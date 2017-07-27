@@ -1,0 +1,175 @@
+{
+  "ccid": null,
+  "cookies": {
+    "JSESSIONID": "A33E23FB30964D5FE81DE73A1C4CA438-n1"
+  },
+  "localFiles": [
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "TestGen.java",
+      "name": "TestGen",
+      "polygon_filename": "TestGen.java",
+      "tag": null,
+      "type": "source"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "olymp.sty",
+      "name": "olymp",
+      "polygon_filename": "olymp.sty",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "problem.tex",
+      "name": "problem",
+      "polygon_filename": "problem.tex",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "statements.ftl",
+      "name": "statements",
+      "polygon_filename": "statements.ftl",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "src",
+      "filename": "testlib.h",
+      "name": "testlib",
+      "polygon_filename": "testlib.h",
+      "tag": null,
+      "type": "resource"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "",
+      "filename": "script",
+      "name": "script",
+      "polygon_filename": "script",
+      "tag": null,
+      "type": "script"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "tram_aa.java",
+      "name": "tram_aa",
+      "polygon_filename": "tram_aa.java",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "tram_aa_60.java",
+      "name": "tram_aa_60",
+      "polygon_filename": "tram_aa_60.java",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "tram_aa_80.java",
+      "name": "tram_aa_80",
+      "polygon_filename": "tram_aa_80.java",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "tram_aa_nlogn.java",
+      "name": "tram_aa_nlogn",
+      "polygon_filename": "tram_aa_nlogn.java",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "tram_aa_sqr.java",
+      "name": "tram_aa_sqr",
+      "polygon_filename": "tram_aa_sqr.java",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "tram_mb.java",
+      "name": "tram_mb",
+      "polygon_filename": "tram_mb.java",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "tram_mb_fast.java",
+      "name": "tram_mb_fast",
+      "polygon_filename": "tram_mb_fast.java",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "tram_mb_slow.java",
+      "name": "tram_mb_slow",
+      "polygon_filename": "tram_mb_slow.java",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "tram_nn.java",
+      "name": "tram_nn",
+      "polygon_filename": "tram_nn.java",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "tram_nn_NM.java",
+      "name": "tram_nn_NM",
+      "polygon_filename": "tram_nn_NM.java",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "tram_sm_slow.java",
+      "name": "tram_sm_slow",
+      "polygon_filename": "tram_sm_slow.java",
+      "tag": null,
+      "type": "solution"
+    },
+    {
+      "__type": "LocalFile",
+      "dir": "solutions",
+      "filename": "tram_sm_zero.java",
+      "name": "tram_sm_zero",
+      "polygon_filename": "tram_sm_zero.java",
+      "tag": null,
+      "type": "solution"
+    }
+  ],
+  "owner": null,
+  "problemId": "44697",
+  "problemName": null,
+  "sessionId": null,
+  "version": 1
+}
