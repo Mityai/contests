@@ -47,6 +47,9 @@ set tabstop=4
 set expandtab
 set shiftwidth=4
 
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%101v.\+/
+
 "set list
 "set listchars=trail:.
 
@@ -75,7 +78,7 @@ set noerrorbells
 set novisualbell
 
 set noshowmode
-set ambiwidth=double
+"set ambiwidth=double
 
 set nobackup
 set noswapfile
@@ -93,9 +96,24 @@ nnoremap <Up> :tab sp
 map <F2> :NERDTreeToggle<CR>
 "map <F12> :YcmCompleter GoTo<CR>
 
-:map <F5> :w<cr> :!clang++ -std=c++11 -Wall -Wunused % -o %< <cr>
-:map <F9> :w<cr> :!clang++ -std=c++11 -Wall -Wunused % -o %< && ./%< <cr>
+" clang++
+:map <F5> :w<cr> :!clang++ -g -std=c++1z -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC -O2 -Wall -Wextra -Wshadow -Wunused -Wfloat-equal -Wconversion -fsanitize=address,undefined % -o %< <cr>
+:map <F9> :w<cr> :!clang++ -g -std=c++1z -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC -O2 -Wall -Wextra -Wshadow -Wunused -Wfloat-equal -Wconversion -fsanitize=address,undefined % -o %< && ./%< <cr>
+:map <F11> :w<cr> :!clang++ -std=c++14 -O2 % -o %< && time ./%< <cr>
+
+" gcc
+:map <S-F12> :w<cr> :!gcc -O2 -Wall -Werror -std=gnu11 -lm % -o %< <cr>
+:map <F12> :w<cr> :!gcc -O2 -Wall -Werror -std=gnu11 -lm % -o %< && time ./%< <cr>
+
+" run executable
 :map <F10> :!./%< <cr>
+
+" python3
+:map \;; :w <cr>:!python3 % <cr>
+
+" latex
+:map \ll :w <cr>:!xelatex --shell-escape main.tex && open -a "Safari" main.pdf <cr>
+":map \ll :w <cr>:!pdflatex main.tex && open main.pdf <cr>
 
 set encoding=utf-8
 scriptencoding utf-8
