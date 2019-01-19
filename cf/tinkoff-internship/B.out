@@ -1,0 +1,14 @@
+YES
+1
+4
+2
+3
+5
+
+int getPos(int x) {
+    Node *A, *B;
+    split(root, x - 1, A, B);
+    int ret = getsize(A);
+    root = merge(A, B);
+    return ret;
+}
